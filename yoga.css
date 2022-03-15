@@ -1,6 +1,6 @@
 body {
     display: inline-block;  
-    background-color: rgb(238, 238, 238);
+    background-color: lightgray;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,8 +9,7 @@ header
 {
     width: 1000px;
     background-color: lightgray;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20px;
 }
 
 nav {
