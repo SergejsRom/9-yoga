@@ -53,6 +53,7 @@ p {
 a.link {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+    text-align: center;
     float: left;
     margin: 20px;
     width: 200px;
