@@ -1,0 +1,39 @@
+body {
+    display: inline-block; 
+    border: 1px; 
+    background-color: rgb(238, 238, 238);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header 
+{
+    width: 1000px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 550px;
+    float: right;
+    padding: 15px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 1000px;
+    background-color: lightgray;
+}
