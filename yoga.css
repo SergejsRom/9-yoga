@@ -3,14 +3,16 @@ body {
 
 }
 
-header 
+header, main 
 {
     width: 1000px;
     background-color: lightgray;
     margin-top: 20px;
     margin-left: calc(50% - 500px);
 }
-
+main {
+    margin-top: 10px;
+}
 nav {
     width: 550px;
     float: right;
@@ -28,13 +30,6 @@ a.nav {
 
 a.nav:hover {
     text-decoration: underline;
-}
-
-main {
-    display: inline-block;
-    width: 1000px;
-    background-color: lightgray;
-    margin-left: calc(50% - 500px);
 }
 
 h1 {
