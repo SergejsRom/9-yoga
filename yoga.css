@@ -10,6 +10,7 @@ header
     width: 1000px;
     background-color: lightgray;
     margin-top: 20px;
+    margin-left: 150px;
 }
 
 nav {
@@ -35,6 +36,7 @@ main {
     display: inline-block;
     width: 1000px;
     background-color: lightgray;
+    margin-left: 150px;
 }
 
 h1 {
