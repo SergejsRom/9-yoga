@@ -5,31 +5,46 @@ body {
 
 header, main 
 {
+    display: inline-block;
     width: 1000px;
     background-color: lightgray;
     margin-top: 20px;
     margin-left: calc(50% - 500px);
 }
-main {
-    margin-top: 10px;
-}
 nav {
     width: 550px;
     float: right;
-    padding: 15px;
+    padding: 0px;
     float: right;
 }
 
 a.nav {
+    display: inline-block;
     text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
     color: darkgray;
-    margin: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 10px;
+    margin-top: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 a.nav:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+a.nav:first-child {
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+
+a.nav:nth-child
+
+main {
+    margin-top: 10px;
 }
 
 h1 {
