@@ -1,3 +1,14 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body {
     background-color: lightgray;
 
@@ -42,19 +53,19 @@ nav > a:first-child {
     padding-bottom: 5px;
 }
 
-nav > a:nth-child
+header > nav > a:nth-child
 
 main {
     margin-top: 10px;
 }
 
-h1 {
+div > h1 {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 20px;
     float: left;
 }
-p {
+div > p {
     color: rgba(0, 0, 0, 0.568);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: left;
