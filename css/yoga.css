@@ -17,16 +17,12 @@ body {
 body > header, 
 body > main 
 {
-    display: inline-block;
     width: 1000px;
-    background-color: lightgray;
     margin-top: 20px;
     margin-left: calc(50% - 500px);
 }
 nav {
     width: 550px;
-    float: right;
-    padding: 0px;
     float: right;
 }
 
@@ -56,28 +52,34 @@ nav > a:first-child {
 header > nav > a:nth-child
 
 main {
+    background-color: rgb(116, 238, 34);
     margin-top: 10px;
+    display: inline-block;
+}
+div {
+    width: 500px;
+    background-color: aqua;
+    float: left;
+    margin-top: 25px;
+    padding-right: 5%;
 }
 
 div > h1 {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 20px;
     float: left;
 }
 div > p {
     color: rgba(0, 0, 0, 0.568);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: left;
-    margin: 20px;
-    width: 450px;
+    margin-top: 25px;
 }
 div > a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     text-align: center;
     float: left;
-    margin: 20px;
     width: 200px;
     padding: 10px;
     color: white;
@@ -85,4 +87,13 @@ div > a {
     border-radius: 10px;
     border-color: red;
     background-color: red;
+    margin-top: 50px;
+}
+main > img {
+    object-fit: contain;
+    object-position: center;
+    width: 500px; 
+    height: 500px;
+    float: left;
+    background-color: blue;
 }
