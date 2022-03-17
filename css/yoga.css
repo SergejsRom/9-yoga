@@ -31,7 +31,7 @@ nav > a {
     text-decoration: none;
     font-size: 18px;
     line-height: 20px;
-    color: darkgray;
+    color: rgb(141, 140, 140);
     padding-left: 1px;
     padding-right: 1px;
     margin-left: 10px;
@@ -52,7 +52,6 @@ nav > a:first-child {
 header > nav > a:nth-child
 
 main {
-    background-color: rgb(116, 238, 34);
     margin-top: 10px;
     display: inline-block;
 }
@@ -66,7 +65,7 @@ div {
 div > h1 {
     color: black;
     font-family: sans-serif ;
-    font font-weight: normal;
+    font-weight: normal;
     float: left;
 }
 h1 > span {
