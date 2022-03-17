@@ -3,7 +3,8 @@ body {
 
 }
 
-header, main 
+body > header, 
+body > main 
 {
     display: inline-block;
     width: 1000px;
@@ -18,7 +19,7 @@ nav {
     float: right;
 }
 
-a.nav {
+nav > a {
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
@@ -32,16 +33,16 @@ a.nav {
 
 }
 
-a.nav:hover {
+nav > a:hover {
     border-bottom: 2px solid red;
     padding-bottom: 5px;
 }
-a.nav:first-child {
+nav > a:first-child {
     border-bottom: 2px solid red;
     padding-bottom: 5px;
 }
 
-a.nav:nth-child
+nav > a:nth-child
 
 main {
     margin-top: 10px;
@@ -60,7 +61,7 @@ p {
     margin: 20px;
     width: 450px;
 }
-a.link {
+div > a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     text-align: center;
